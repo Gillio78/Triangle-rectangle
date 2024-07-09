@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Triangle Rectangle</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+
+<body>
+
+<div class="infos">
+<h1>Déterminer si un triangle est rectangle en A ou non :</h1><br>
+<p>Grâce à cet application qui utilise la contreapposée du Théorème de Pythagore, vous pourrez déterminer si un triangle est rectangle ou non.<br><br>Vous devrez donner la mesure de chaque côté adjacent puis de l'hypothénus (bc), sans indiquer d'unité de mesure.</p>
+</div>
+  <fieldset>
+    <legend>Donnez les longueurs des côtés du triangle :</legend><br>
+    <label for="ab">Côté AB :</label>
+    <input type="number" id="ab" name="ab" required="required"><br><br>
+    <label for="ac">Côté AC :</label>
+    <input type="number" id="ac" name="ac" required="required"><br><br>
+    <label for="bc">Côté BC :</label>
+    <input type="number" id="bc" name="bc" required="required"><br><br>
+    <button type="submit" id="bouton">Tester</button>
+  </fieldset>
+  <p id="resultat"></p>
+  <script src="script.js"></script>
+</body>
+
+</html>
